@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class UC4_EmpWageUsingSwitch
+    internal class EmpWageUsingSwitch
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
         public static void EmployeeWage()
         {
-            Console.WriteLine("\nUC4");
+            Console.WriteLine();
             int empHrs = 0;
             int empWage = 0;
             Random obj = new Random();

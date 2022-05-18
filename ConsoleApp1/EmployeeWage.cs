@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class UC2_EmployeeWage
+    internal class EmployeeWage
     {
-        public static void EmployeeWage()
+        public static void EmployeeWageM()
         {
-            Console.WriteLine("\nUC2");
+            Console.WriteLine();
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
             int empHrs = 0;

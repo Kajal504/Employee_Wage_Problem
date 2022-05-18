@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class UC1_EmplyeeAttendance
+    internal class EmplyeeAttendance
     {
         public static void EmployeeAttendance()
         {
-            Console.WriteLine("\nUC1");
+            Console.WriteLine();
             Random obj = new Random();
             int num = obj.Next(0, 2);
             if (num == 1)
