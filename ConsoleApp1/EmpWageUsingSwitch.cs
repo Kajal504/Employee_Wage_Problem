@@ -13,7 +13,7 @@ namespace ConsoleApp1
         public const int EMP_RATE_PER_HOUR = 20;
         public static void EmployeeWage()
         {
-            Console.WriteLine();
+          
             int empHrs = 0;
             int empWage = 0;
             Random obj = new Random();

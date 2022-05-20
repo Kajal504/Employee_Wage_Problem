@@ -14,7 +14,7 @@ namespace ConsoleApp1
         public const int NUM_OF_WORKING_DAYS = 20;
         public static void EmpWageFor20Days()
         {
-            Console.WriteLine();
+            
             int empHrs = 0;
             int empWage = 0;
             int totalempwage = 0;

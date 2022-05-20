@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public static void EmployeeAttendance()
         {
-            Console.WriteLine();
+            
             Random obj = new Random();
             int num = obj.Next(0, 2);
             if (num == 1)

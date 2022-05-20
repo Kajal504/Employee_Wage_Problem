@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public static void EmployeeWageM()
         {
-            Console.WriteLine();
+            
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
             int empHrs = 0;
